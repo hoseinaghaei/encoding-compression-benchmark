@@ -1,0 +1,16 @@
+algorithm,target,compress_time_ns,decompress_time_ns,original_size_bytes,compressed_size_bytes,compression_ratio
+IDENTITY,timestamps,375,291,160,160,1.0000
+IDENTITY,values,292,291,160,160,1.0000
+IDENTITY,combined,334,292,320,320,1.0000
+GZIP,timestamps,10542,12625,160,76,0.4750
+GZIP,values,11166,13959,160,183,1.1438
+GZIP,combined,14542,21792,320,245,0.7656
+SNAPPY,timestamps,3958,3625,160,91,0.5688
+SNAPPY,values,875,750,160,164,1.0250
+SNAPPY,combined,1000,791,320,248,0.7750
+LZ4,timestamps,1416,750,160,93,0.5813
+LZ4,values,1292,667,160,166,1.0375
+LZ4,combined,1500,708,320,250,0.7813
+ZLIB,timestamps,7000,3917,160,64,0.4000
+ZLIB,values,8500,2667,160,171,1.0688
+ZLIB,combined,12375,5166,320,233,0.7281
